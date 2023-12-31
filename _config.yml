@@ -1,1 +1,6 @@
-theme: jekyll-theme-minimal
+title: 欢迎来到我的主页
+subtitle: 鸿雁长飞光不度，鱼龙浅跃水成文
+description: 一个属于自己的地方
+author: PerCheung
+language: zh-CN
+theme: jekyll-theme-architect
