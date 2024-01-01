@@ -1,5 +1,10 @@
 title: 欢迎来到我的主页
 description: 鸿雁长飞光不度，鱼龙浅跃水成文
-author: PerCheung
+author:
+  name: Peter Cheung
+  email: 2243736958@qq.com
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 language: zh-CN
-theme: jekyll-theme-minima
+theme: minima
