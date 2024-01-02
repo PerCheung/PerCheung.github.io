@@ -1,6 +1,8 @@
 ###### 点击返回[🔗我的博客文章目录](https://percheung.github.io/#/toc)
 # 如何搭建github.io网页
-[TOC]
+
+* 目录
+{:toc}
 
 *在我的理解里，github.io，不是博客，这是服务器。我的博客网址为*🔗[https://percheung.github.io](https://percheung.github.io/)
 
