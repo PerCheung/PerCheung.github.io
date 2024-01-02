@@ -6,3 +6,7 @@ description: This is my blog
 theme: jekyll-theme-primer
 # 目录功能
 markdown: kramdown
+# 代码高亮支持
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
