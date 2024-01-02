@@ -49,7 +49,8 @@ theme: jekyll-theme-time-machine
 这是我的`_config.yml`文件内容。
 
 ```yaml
-title: My Blog
-description: 鸿雁长飞光不度，鱼龙浅跃水成文
+title: 鸿雁长飞光不度，鱼龙潜跃水成文
+description: This is my blog
+theme: jekyll-theme-primer
 ```
 
