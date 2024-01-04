@@ -43,7 +43,7 @@
 
 ![image-20231226165946916](https://percheung.github.io/blogImg/202312261659154.png)
 
-就这么简答，你已经获得了链接为{你的GitHub账户名}.github.io的主页，属于你！
+就这么简单，你已经获得了链接为{你的GitHub账户名}.github.io的主页，属于你！
 
 ## 3.github.io仓库的初始化
 
