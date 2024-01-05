@@ -4,7 +4,9 @@
 
 # HTML5学习记录
 
-![](https://percheung.github.io/blogImg/html.png)
+<div style="text-align: center;">
+  <img src="https://percheung.github.io/blogImg/html.png" width="30%" alt="html" />
+</div>
 
 ## 一、html5是什么？
 

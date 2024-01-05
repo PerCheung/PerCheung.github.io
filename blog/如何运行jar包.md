@@ -1,7 +1,7 @@
 点击返回[🔗我的博客文章目录](https://percheung.github.io/#/toc)
 * 目录
 {:toc}
-# 如何运行jar包
+# 如何运行<img src="https://percheung.github.io/blogImg/jar.png" width="50px" alt="" />jar包
 
 >运行jar包是每个Java程序员都要面临的问题，简单到`java -jar`，然而正由于过于简单，这里面很多技巧，却被大家忽略。
 
@@ -63,4 +63,3 @@ thread_count=$(nproc)
 nohup java -server -Dfile.encoding=UTF-8 -XX:ActiveProcessorCount=$thread_count -Xms${heap_memory}G -Xmx${heap_memory}G -XX:+DisableExplicitGC -XX:+UseParallelGC -XX:+UseCompressedOops -XX:ParallelGCThreads=$thread_count -XX:+HeapDumpOnOutOfMemoryError -Djava.net.preferIPv4Stack=true -jar /server/newgonow/newgonow_server/newgonow_jar/newgeo-0.1.jar &
 ```
 这个脚本，将把运行日志打到`nohup.out`，若运行时发生内存泄漏，也会产生`java_pid74935.hprof`，之后，我们就可以用内存泄漏工具进行分析了。而且由于它动态的获取服务器的线核数和内存，使得它具有强大的并行运行能力和垃圾回收能力，这保证它可以一直高效地运转。而且你可以放到任何服务器上，它都会尽量找到它的极限能力。
-![](https://percheung.github.io/blogImg/jar.png)

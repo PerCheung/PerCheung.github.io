@@ -2,9 +2,7 @@
 * 目录
 {:toc}
 
-# 初步领悟C指针
-
-![](https://percheung.github.io/blogImg/clanguage.png)
+# 初步领悟<img src="https://percheung.github.io/blogImg/clanguage.png" width="50px" alt="C" />指针
 
 ## 1.不是很难，先看指针结构
 

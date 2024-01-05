@@ -5,7 +5,9 @@
 
 ## 1.更新
 
-![](https://percheung.github.io/blogImg/centos.png)
+<div style="text-align: center;">
+  <img src="https://percheung.github.io/blogImg/centos.png" width="20%" alt="centos" />
+</div>
 
 更新 yum（包括centos内核）
 
@@ -15,7 +17,9 @@ yum update
 
 ## 2.设置时间
 
-![](https://percheung.github.io/blogImg/time.png)
+<div style="text-align: center;">
+  <img src="https://percheung.github.io/blogImg/time.png" width="20%" alt="time" />
+</div>
 
 ### 2.1 设置网络时间
 
@@ -71,7 +75,9 @@ hwclock -w
 
 ## 3.安装docker
 
-![](https://percheung.github.io/blogImg/Docker.png)
+<div style="text-align: center;">
+  <img src="https://percheung.github.io/blogImg/Docker.png" width="20%" alt="Docker" />
+</div>
 
 安装需要的软件包， yum-util 提供yum-config-manager功能，另外两个是devicemapper驱动依赖的
 
@@ -79,9 +85,7 @@ hwclock -w
 yum install -y yum-utils device-mapper-persistent-data lvm2
 ```
 
-设置阿里镜像
-
-![](https://percheung.github.io/blogImg/aliyun.png)
+设置阿里<img src="https://percheung.github.io/blogImg/aliyun.png" width="25px" alt="" />镜像
 
 ```bash
 sudo yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
@@ -134,7 +138,9 @@ docker compose version
 
 ## 4.安装Java
 
-![](https://percheung.github.io/blogImg/java.png)
+<div style="text-align: center;">
+  <img src="https://percheung.github.io/blogImg/java.png" width="20%" alt="java" />
+</div>
 
 ### 4.1 下载安装
 
@@ -211,7 +217,9 @@ echo $JAVA_HOME
 
 ## 5.安装maven
 
-![](https://percheung.github.io/blogImg/maven.png)
+<div style="text-align: center;">
+  <img src="https://percheung.github.io/blogImg/maven.png" width="20%" alt="maven" />
+</div>
 
 ### 5.1 下载安装解压
 

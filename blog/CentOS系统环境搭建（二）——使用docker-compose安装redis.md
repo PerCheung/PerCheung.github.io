@@ -2,9 +2,7 @@
 * 目录
 {:toc}
 
-# CentOS系统环境搭建（二）——使用docker-compose安装redis
-
-![](https://percheung.github.io/blogImg/Redis.png)
+# CentOS系统环境搭建（二）——使用docker-compose安装<img src="https://percheung.github.io/blogImg/Redis.png" width="50px" alt="" />redis
 
 ## 1.搭建文件夹
 

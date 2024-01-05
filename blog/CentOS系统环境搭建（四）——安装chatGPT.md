@@ -1,9 +1,11 @@
 点击返回[🔗我的博客文章目录](https://percheung.github.io/#/toc)
 # CentOS系统环境搭建（四）——安装chatGPT
 
-![](https://percheung.github.io/blogImg/openai.png)
-
 *Welcome to the AI era!*
+
+<div style="text-align: center;">
+  <img src="https://percheung.github.io/blogImg/openai.png" width="20%" alt="Typora" />
+</div>
 
 **使用docker compose安装**
 

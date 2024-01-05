@@ -4,7 +4,9 @@
 
 # CSS选择器总结
 
-![](https://percheung.github.io/blogImg/css.png)
+<div style="text-align: center;">
+  <img src="https://percheung.github.io/blogImg/css.png" width="30%" alt="maven" />
+</div>
 
 ## 1. 类别选择器
 
