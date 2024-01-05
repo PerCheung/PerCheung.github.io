@@ -35,6 +35,7 @@ Sa-Token的官方文档链接[🔗https://sa-token.cc/doc.html](https://sa-token
 ### 2.配置你的application.yml
 
 > 这里需要注意，在spring boot data redis的2版本以后，已经弃用 jedis 改用 lettuce，而官网仍在配置jedis连接池，这里要用lettuce连接池。
+
 ```yaml
 ############## Sa-Token 配置 (文档: https://sa-token.cc) ##############
 sa-token:
@@ -72,7 +73,9 @@ spring:
         # 连接池中的最小空闲连接
         min-idle: 0
 ```
+
 讲解：如果你用过jwt，那么**token-name: token**就可以达到类似于jwt的效果，在你的header加上**token:token值**，就可以达到登录的校验的效果，像jwt一样，完全抛弃了cookie和session，而jwt过于冗余，**token-style: simple-uuid**将保证token的精简，结合token的唯一性配合redis的使用，jwt携带信息的优点也将不复存在，因为redis可以存储一切。而redis配置你不必担心它影响spring boot自带的redis自动装配依赖，结合实际你会发现sa-token就是封装的redis自动装配依赖。当你创造一个token，他也会自动写入redis，不需要你多写任何代码。所有的token，都将会自动管理。
+
 ### 3.注解鉴权
 
 加sa-token拦截器。
@@ -148,6 +151,7 @@ public class StpInterfaceImpl implements StpInterface {
 
 ```
 讲解：具体用法我不再赘述，如果你学过shiro，那你理解这段代码轻而易举，无非是把一个角色数组或者权限数据，跟账号做了一个绑定。如果你真的想理解掌握，然后超越，去改造这段代码，需要你不得不去学习一下shiro的五表思想去分配角色和权限资源。才能让你真正在实际工作里拿捏对权限角色的分配管理。
+
 ### 4.加入RedisConfig
 
 这和sa-token无关，只是为了让你的redis能支持中文存储。
@@ -199,6 +203,7 @@ public class RedisConfig extends CachingConfigurerSupport {
 }
 
 ```
+
 ### 5.异常统一处理
 
 如果你的Java知识不足以理解这些代码，这些也可以不要，下面的代码只是为了让你错误处理更加优雅。
@@ -281,6 +286,7 @@ public class AllExceptionHandle {
     }
 }
 ```
+
 你只需关注的代码是这一段。
 
 ```java
@@ -293,6 +299,7 @@ public class AllExceptionHandle {
     }
 ```
 讲解：登录，权限的不足，都可以理解成401错误，这是http的知识，这段代码将会把sa-token的报错都以401错误返回给前端，让前端一看便知：**哦，原来是用户的问题，不是后端错了。**
+
 ### 6.业务代码controller层
 
 ```java
@@ -406,7 +413,9 @@ public class UserController {
     }
 }
 ```
+
 讲解：你要注意到，这里面有几个注解`@SaCheckLogin`，`@SaCheckRole("admin")`，第一个就是登录校验，第二个就是admin角色校验。你观察我的login部分。`StpUtil.login(username);`这句话，就能保证token以username为key，创造token写入redis并且管理起来，完全无需太多代码。而`StpUtil.getTokenInfo().getTokenValue()`将把token拿出来返回给前端，前端要记得把token保存起来，最好是放前端的**localStorage**（后端不懂这是什么，前端很懂）里，只要前端记得后面给带`@SaCheckLogin`这样的接口发请求的时候，把token放header里传过来就行。
+
 ### 7.前端代码
 
 为了方便你的理解和使用，我特意写了html代码供你测试使用，代码已经写了大篇幅的注释，我就不讲解了。
