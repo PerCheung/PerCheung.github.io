@@ -8,7 +8,9 @@
 
 自1984年，乔布斯带领的苹果公司发布了麦金塔系统以后。电脑操作从命令的方式进化到了图形的方式，然而，我们作为开发者，必然要返璞归真，也必然明白所有的图形都只是对命令的封装。
 
-![](https://percheung.github.io/blogImg/apple.png)
+<div style="text-align: center;">
+  <img src="/blogImg/apple.png" width="50%" alt="apple" />
+</div>
 
 vim是一个图形化时代的特立独行，作为不依靠鼠标，纯命令编辑文本的编辑器，它占据了所有的Linux系统，开发人员几乎不可能不接触vim。本文讲从安装开始讲，一直讲完基本的vim的使用方法，操作系统使用Windows，因为win作为当今地球上最普遍的操作系统，可以让大部分人都可以通过本文学会vim，学会win下vim的使用，它的命令和Linux是完全一致的，你就也可以顺便打通Linux，macOS下的vim的使用方法。如果你爱上了vim，我想即便在Windows下再也不需要Notepad++，亦或者sublime text等各种文本编辑器。这一篇的学习如果你能坚持看完，我想它给你带来的收获是前所未有。
 
