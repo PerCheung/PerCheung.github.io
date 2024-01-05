@@ -2,7 +2,7 @@
 * 目录
 {:toc}
 
-# CentOS系统环境搭建（二）——使用docker compose安装redis
+# CentOS系统环境搭建（二）——使用docker-compose安装redis
 
 ## 1.搭建文件夹
 
