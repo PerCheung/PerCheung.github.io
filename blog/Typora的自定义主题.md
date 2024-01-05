@@ -4,6 +4,8 @@
 
 # Typora的自定义主题
 
+![](https://percheung.github.io/blogImg/Typora.png)
+
 > 修改我们的Typora主题。这个主题是苹果味的，主要用到的字体为PingFang SC，Times New Roman，Microsoft YaHei Mono。
 
 ## 1.加入my.css

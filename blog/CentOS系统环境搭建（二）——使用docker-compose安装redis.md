@@ -4,6 +4,8 @@
 
 # CentOS系统环境搭建（二）——使用docker-compose安装redis
 
+![](https://percheung.github.io/blogImg/Redis.png)
+
 ## 1.搭建文件夹
 
 /usr/local下创建myredis

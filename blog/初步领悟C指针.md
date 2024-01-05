@@ -4,6 +4,8 @@
 
 # 初步领悟C指针
 
+![](https://percheung.github.io/blogImg/clanguage.png)
+
 ## 1.不是很难，先看指针结构
 
 首先，我们看一下指针的结构。

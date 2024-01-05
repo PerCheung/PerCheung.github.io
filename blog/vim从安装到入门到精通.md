@@ -8,7 +8,12 @@
 
 自1984年，乔布斯带领的苹果公司发布了麦金塔系统以后。电脑操作从命令的方式进化到了图形的方式，然而，我们作为开发者，必然要返璞归真，也必然明白所有的图形都只是对命令的封装。
 
+![](https://percheung.github.io/blogImg/apple.png)
+
 vim是一个图形化时代的特立独行，作为不依靠鼠标，纯命令编辑文本的编辑器，它占据了所有的Linux系统，开发人员几乎不可能不接触vim。本文讲从安装开始讲，一直讲完基本的vim的使用方法，操作系统使用Windows，因为win作为当今地球上最普遍的操作系统，可以让大部分人都可以通过本文学会vim，学会win下vim的使用，它的命令和Linux是完全一致的，你就也可以顺便打通Linux，macOS下的vim的使用方法。如果你爱上了vim，我想即便在Windows下再也不需要Notepad++，亦或者sublime text等各种文本编辑器。这一篇的学习如果你能坚持看完，我想它给你带来的收获是前所未有。
+
+![](https://percheung.github.io/blogImg/vim.png)
+
 这一篇文章看完加学会大概需要耗费你一小时，一小时可以学会使用vim，应该是相当划算的。本人为了写好这一篇内容，参考了两篇文章，一篇来自[zempty](https://www.zhihu.com/people/zemptyzhao)这位大佬的[精通 VIM ，此文就够了](https://zhuanlan.zhihu.com/p/68111471)。另一篇是卢钧轶所写的[史上最全Vim快捷键键位图 -- 入门到进阶](http://cenalulu.github.io/linux/all-vim-cheatsheat/)。这一篇的内容可以看作[精通 VIM ，此文就够了](https://zhuanlan.zhihu.com/p/68111471)的展开详解版，因为我会把所有的命令快捷键都截屏展示，知识骨架和[精通 VIM ，此文就够了](https://zhuanlan.zhihu.com/p/68111471)也相差不多，本人是在昨天晚上花了大约一小时通过看[精通 VIM ，此文就够了](https://zhuanlan.zhihu.com/p/68111471)，学会使用vim的，本文将进一步总结[精通 VIM ，此文就够了](https://zhuanlan.zhihu.com/p/68111471)，全文线性结构，从上往下阅读即可。
 
 ## NO.2 vim安装

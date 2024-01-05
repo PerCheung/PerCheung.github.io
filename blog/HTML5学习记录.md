@@ -4,6 +4,8 @@
 
 # HTML5学习记录
 
+![](https://percheung.github.io/blogImg/html.png)
+
 ## 一、html5是什么？
 
  1. html就是~~HOW TO MAKE LOVE的缩写，代表作有《金瓶梅》。。。可以通过各种小网站进行学习~~ hyper-text markup language的缩写，翻译一下就是超文本【标记】语言。

@@ -3,6 +3,8 @@
 {:toc}
 # Java虚拟机讲解
 
+![](https://percheung.github.io/blogImg/JVM.png)
+
 ## 本文讲解的名词有，JVM，程序计数器，栈，堆，方法区，幸存区，元空间，永久代，老年代，新生代，伊甸园区，常量池等等。
 
 ## 什么是JVM？
