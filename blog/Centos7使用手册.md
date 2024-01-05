@@ -12,3 +12,7 @@
 
 ## [CentOS系统环境搭建（三）——使用docker-compose安装mysql](https://percheung.github.io/blog/CentOS系统环境搭建（三）——使用docker-compose安装mysql)
 
+## [CentOS系统环境搭建（四）——安装chatGPT](https://percheung.github.io/blog/CentOS系统环境搭建（四）——安装chatGPT)
+
+## [CentOS系统环境搭建（五）——安装nvm](https://percheung.github.io/blog/CentOS系统环境搭建（五）——安装nvm)
+
