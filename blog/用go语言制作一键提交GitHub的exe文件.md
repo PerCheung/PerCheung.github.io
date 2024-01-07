@@ -1,3 +1,5 @@
+点击返回[🔗我的博客文章目录](https://percheung.github.io/#/toc)
+
 # 用go语言<img src="https://percheung.github.io/blogImg/golang_.png" width="50px" alt="C" />制作一键提交GitHub的exe文件
 
 ## 1.代码如下
