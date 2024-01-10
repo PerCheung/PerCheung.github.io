@@ -83,6 +83,7 @@ color:#0000CC;
 **伪：我理解为基于元素但是又超越元素之外所提取出的抽象。**
 
 用文档以外的其他条件来应用元素的样式，比如鼠标悬停等。这时候我们就需要用到伪类了：
+
 ```css
 a:link{
 color:#999999;
@@ -94,7 +95,7 @@ a:hover{
 color:#006600;
 }
 input:focus{
-background:# E0F1F5;
+background:#E0F1F5;
 }
 ```
 Link表示链接在没有被点击时的样式。Visited表示链接已经被访问时的样式。Hover表示当鼠标悬停在链接上面时的样式。
@@ -129,7 +130,7 @@ color:#c00;
 color:#000;
 line-height:26px;
 }
-.#main p span {
+.main p span {
 color:#f60;
 }
 .text1 h1,#sider h3,.art_title h2 {

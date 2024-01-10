@@ -1,8 +1,7 @@
 点击返回[🔗我的博客文章目录](https://percheung.github.io/#/toc)
 * 目录
 {:toc}
-
-# easycode的vm生成模板
+# EasyCode的vm生成模板
 
 > 这是一堆vm模板，用来生成各种代码，如果你对easycode了解就知道是干嘛的，我这个可以一口气将spring boot项目所有的代码生成出来，包括controller，service，mapper，application，redis，sa-token等等。现在留在CSDN上方便查看和下载，本文所有的内容均为我的原创，而且开源免费。
 
