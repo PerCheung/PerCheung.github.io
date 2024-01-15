@@ -34,19 +34,19 @@ powercfg -s 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
 
 > 使用异类策略0
 
-![image-20240116011513598](https://percheung.github.io/image-20240116011513598.png)
+![image-20240116011513598](https://percheung.github.io/blogImg/image-20240116011513598.png)
 
 ### 异类线程调度策略
 
 > 首选高性能处理器
 
-![image-20240116011704650](https://percheung.github.io/image-20240116011704650.png)
+![image-20240116011704650](https://percheung.github.io/blogImg/image-20240116011704650.png)
 
 ### 异类短时间线程调度策略
 
 > 首选高性能处理器
 
-![image-20240116011735181](https://percheung.github.io/image-20240116011735181.png)
+![image-20240116011735181](https://percheung.github.io/blogImg/image-20240116011735181.png)
 
 ## 4.你的电源策略
 
@@ -54,10 +54,10 @@ powercfg -s 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
 
 *这里当然要记得勾选你的高性能模式。*
 
-![image-20240116012036339](https://percheung.github.io/image-20240116012036339.png)
+![image-20240116012036339](https://percheung.github.io/blogImg/image-20240116012036339.png)
 
 ## 5.CPU展示
 
 > 在任务管理器里`右击`，照我的图做，可以看到你电脑上所有的cpu的运行情况，这里可以看到大核小核都在运行，利用率百分之百。
 
-![image-20240116012426299](https://percheung.github.io/image-20240116012426299.png)
+![image-20240116012426299](https://percheung.github.io/blogImg/image-20240116012426299.png)
