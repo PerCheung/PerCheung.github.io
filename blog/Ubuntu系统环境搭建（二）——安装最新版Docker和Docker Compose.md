@@ -3,7 +3,7 @@
 {:toc}
 <div onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" style="background-color: transparent; position: fixed; bottom: 20px; right: 40px; padding: 10px 10px 5px 10px; cursor: pointer; z-index: 10; border-radius: 13%; box-shadow: 0.5px 3px 7px rgba(0, 0, 0, 0.3);"><img src="https://percheung.github.io/blogImg/backTop.png" alt="TOP" style="background-color: transparent; width: 30px;"></div>
 
-# Ubuntu系统环境搭建（二）——Ubuntu安装最新版Docker和Docker Compose
+# 安装最新版Docker和Docker Compose
 
 <div style="text-align: center;">
   <img src="https://percheung.github.io/blogImg/Docker.png" width="25%" alt="Docker" />
