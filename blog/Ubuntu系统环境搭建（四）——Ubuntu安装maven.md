@@ -3,301 +3,35 @@
 {:toc}
 <div onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" style="background-color: transparent; position: fixed; bottom: 20px; right: 40px; padding: 10px 10px 5px 10px; cursor: pointer; z-index: 10; border-radius: 13%; box-shadow: 0.5px 3px 7px rgba(0, 0, 0, 0.3);"><img src="https://percheung.github.io/blogImg/backTop.png" alt="TOP" style="background-color: transparent; width: 30px;"></div>
 
-# CentOS系统环境搭建（一）——基本环境配置（包含更新Centos，设置时间为网络时间，安装Docker，安装Java，安装maven）
-
-## 1.更新
+# Ubuntu系统环境搭建（四）——Ubuntu安装maven并且配置阿里源
 
 <div style="text-align: center;">
-  <img src="https://percheung.github.io/blogImg/centos.png" width="10%" alt="centos" />
+  <img src="https://percheung.github.io/blogImg/maven.png" width="20%" alt="maven" />
 </div>
 
+## 1.安装maven
 
-更新 yum（包括centos内核）
-
-```bash
-yum update
-```
-
-## 2.设置时间
-
-<div style="text-align: center;">
-  <img src="https://percheung.github.io/blogImg/time.png" width="10%" alt="time" />
-</div>
-
-
-### 2.1 设置网络时间
-
-安装ntpdate工具
+### 1.1更新源列表
 
 ```bash
-yum -y install ntp ntpdate
+sudo apt update
 ```
 
-关闭ntpd
+### 1.2安装
 
 ```bash
-service ntpd stop
+sudo apt install maven
 ```
 
-设置系统时间与网络时间同步
-
-```bash
-ntpdate 0.asia.pool.ntp.org
-```
-
-将系统时间写入硬件时间
-
-```bash
-hwclock --systohc
-```
-
-启动 NTP 服务
-
-```bash
-service ntpd start
-```
-
-开机自启动
-
-```bash
-systemctl enable ntpd
-```
-
-验证时间同步
-
-```bash
-ntpq -p
-```
-
-查看系统的硬件时间，即BIOS时间
-
-```bash
-hwclock -r
-```
-
-### 2.2 修改时区
-
-使用date命令查看Centos时区
-
-```bash
-date -R
-```
-
-通常通过以下方法修改系统的时区就可以了，不必修改硬件时间。将时区信息文件拷贝至/etc/localtime下，将上海时区拷贝至/etc下。
-
-```bash
-cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime -R
-```
-
-Centos系统修改BIOS硬件时间
-
-```bash
-hwclock -w
-```
-
-## 3.安装docker
-
-<div style="text-align: center;">
-  <img src="https://percheung.github.io/blogImg/Docker.png" width="15%" alt="Docker" />
-</div>
-
-
-安装需要的软件包， yum-util 提供yum-config-manager功能，另外两个是devicemapper驱动依赖的
-
-```bash
-yum install -y yum-utils device-mapper-persistent-data lvm2
-```
-
-设置阿里<img src="https://percheung.github.io/blogImg/aliyun.png" width="25px" alt="" />镜像
-
-```bash
-sudo yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
-```
-
-更新yum软件包索引
-
-```bash
-sudo yum makecache fast
-```
-
-查看可用的社区版
-
-```bash
-yum list docker-ce --showduplicates | sort -r
-```
-
-安装指定版本的docker
-
-```bash
-sudo yum install -y docker-ce-20.10.5-3.el7
-```
-
-设置docker开机自启动
-
-```bash
-systemctl start docker
-```
-
-```bash
-systemctl enable docker
-```
-查看状态
-
-```bash
-systemctl status docker
-```
-
-查看版本
-
-```bash
-docker -v
-```
-
-查看本机docker-compose指令
-
-```bash
-docker compose version
-```
-
-## 4.安装Java
-
-<div style="text-align: center;">
-  <img src="https://percheung.github.io/blogImg/java.png" width="10%" alt="java" />
-</div>
-
-
-### 4.1 下载安装
-
-查看云端yum库中目前支持安装的jdk软件包
-
-```bash
-yum search java|grep jdk
-```
-
-选择JDK版本，并安装
-
-```bash
-yum install -y java-1.8.0-openjdk-devel
-```
-
-检查是否安装成功
-
-```bash
-java -version
-```
-
-### 4.2 配置环境变量
-
-#### 4.2.1 查找jdk安装路径
-
-Jdk路径寻找，使用命令
-
-```bash
-sudo alternatives --config java
-```
-
-```bash
-[root@VM-4-17-centos /]# sudo alternatives --config java
-
-There is 1 program that provides 'java'.
-
-  Selection    Command
------------------------------------------------
-*+ 1           java-1.8.0-openjdk.x86_64 (/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.392.b08-2.el7_9.x86_64/jre/bin/java)
-```
-
-jdk路径为
-
-```bash
-/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.392.b08-2.el7_9.x86_64
-```
-
-#### 4.2.2 配置JAVA_HOME
-
-```bash
-vim /etc/profile
-```
-
-末尾写上
-
-```bash
-export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.392.b08-2.el7_9.x86_64
-export JRE_HOME=$JAVA_HOME/jre
-export CLASSPATH=$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
-export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
-```
-
-刷新全局变量
-
-```bash
-source /etc/profile
-```
-
-验证
-
-```bash
-echo $JAVA_HOME
-```
-
-## 5.安装maven
-
-<div style="text-align: center;">
-  <img src="https://percheung.github.io/blogImg/maven.png" width="10%" alt="maven" />
-</div>
-
-
-### 5.1 下载安装解压
-
-[maven下载官网](https://maven.apache.org/download.cgi)
-
-在`/usr/local`下执行下载命令
-
-```bash
-cd /usr/local
-```
-
-```bash
-wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
-```
-
-解压
-
-```bash
-tar -xvf apache-maven-3.9.6-bin.tar.gz
-```
-
-### 5.2 配置环境变量
-
-编辑环境变量
-
-```bash
-vim /etc/profile
-```
-
-在最下面追加
-
-```bash
-MAVEN_HOME=/usr/local/apache-maven-3.9.6
-export PATH=${MAVEN_HOME}/bin:${PATH}
-```
-
-重载环境变量
-
-```bash
-source /etc/profile
-```
-
-查看是否安装成功
+### 1.3验证
 
 ```bash
 mvn -v
 ```
 
-### 5.3 maven配置setting文件
+## 2.配置阿里源
 
-进入`/usr/local/apache-maven-3.9.6/conf/`设置settings.xml文件
-
-#### 5.3.1 settings.xml内容
+> 用下列setting文件替换`/usr/share/maven/conf`下的`settings.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -459,12 +193,13 @@ under the License.
       <url>http://my.repository.com/repo/path</url>
     </mirror>
      -->
+	<!-- aliyun -->
 	<mirror>
-        <id>aliyunmaven</id>
-        <mirrorOf>*</mirrorOf>
-        <name>阿里云公共仓库</name>
-        <url>https://maven.aliyun.com/repository/public</url>
-    </mirror>
+		<id>aliyun</id>
+		<mirrorOf>*</mirrorOf>
+		<name>aliyun</name>
+		<url>https://maven.aliyun.com/repository/public</url>
+	</mirror>
   </mirrors>
 
   <!-- profiles
@@ -518,20 +253,7 @@ under the License.
       </repositories>
     </profile>
     -->
-	<!-- java版本 -->
-    <profile>
-            <id>jdk-1.8</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-                <jdk>1.8</jdk>
-            </activation>
 
-            <properties>
-                <maven.compiler.source>1.8</maven.compiler.source>
-                <maven.compiler.target>1.8</maven.compiler.target>
-                <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-            </properties>
-    </profile>
     <!--
      | Here is another profile, activated by the property 'target-env' with a value of 'dev', which
      | provides a specific path to the Tomcat instance. To use this, your plugin configuration might
