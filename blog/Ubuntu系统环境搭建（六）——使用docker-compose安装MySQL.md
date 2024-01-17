@@ -3,7 +3,7 @@
 {:toc}
 <div onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" style="background-color: transparent; position: fixed; bottom: 20px; right: 40px; padding: 10px 10px 5px 10px; cursor: pointer; z-index: 10; border-radius: 13%; box-shadow: 0.5px 3px 7px rgba(0, 0, 0, 0.3);"><img src="https://percheung.github.io/blogImg/backTop.png" alt="TOP" style="background-color: transparent; width: 30px;"></div>
 
-# Ubuntu系统环境搭建（六）——使用docker-compose安装<img src="https://percheung.github.io/blogImg/mysql.png" width="60px" alt="" />MySQL
+# 使用docker-compose安装<img src="https://percheung.github.io/blogImg/mysql.png" width="60px" alt="" />MySQL
 
 如果你读过我之前写的文章，就知道这一篇博客的所有内容和我写的`CentOS系统环境搭建（三）——使用docker-compose安装mysql`内容是一模一样的，为什么一样的内容我要写两遍呢？因为他们一个是centos系统，另一个是Ubuntu系统。**But ! ! !** 为什么一样的内容我要写两遍呢？ 因为他们都是**docker**。docker是真正的Linux跨平台！**你明白我意思了吗？**
 
