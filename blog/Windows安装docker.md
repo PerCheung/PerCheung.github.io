@@ -149,7 +149,7 @@ docker run hello-world
 
 太美妙了。
 
-![image-20240119153335612](https://percheung.github.io/blogImg/image-20240119153335612.png)
+![image-20240119160839615](https://percheung.github.io/blogImg/image-20240119160839615.png)
 
 ![image-20240119153418799](https://percheung.github.io/blogImg/image-20240119153418799.png)
 
