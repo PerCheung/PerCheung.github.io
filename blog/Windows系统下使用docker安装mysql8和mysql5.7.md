@@ -80,7 +80,7 @@ vim my.cnf
 
 my.cnf内容如下
 
-```bash
+```ini
 [mysql]
 # 默认字符集
 default-character-set=utf8mb4
