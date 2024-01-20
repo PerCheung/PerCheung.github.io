@@ -8,7 +8,7 @@
 > 本教程持续更新，我学到多少就更新多少
 
 <div style="text-align: center;">
-  <img src="https://percheung.github.io/blogImg/ImageMagick.gif" alt="ImageMagick" />
+  <img src="https://percheung.github.io/blogImg/ImageMagick.png" width="30%" alt="ImageMagick" />
 </div>
 
 ## ImageMagick是什么
