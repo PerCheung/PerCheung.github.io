@@ -11,7 +11,6 @@
   <img src="https://percheung.github.io/blogImg/wizard.png" width="50%" alt="ImageMagick" />
 </div>
 
-
 ## ImageMagick是什么
 
 ImageMagick是一个用于查看、编辑位图文件以及进行图像格式转换的开放源代码软件套装。它可以读取、编辑超过100种图帧式。ImageMagick以ImageMagick许可证 （页面存档备份，存于互联网档案馆）（一个类似BSD的许可证）发布。
@@ -58,7 +57,7 @@ magick -background none -format png FFmpeg.svg FFmpeg.png
 
 这个命令会将`FFmpeg.svg`转换为PNG文件`FFmpeg.png`，并将背景设置为透明。
 
-*回想当初我为了能实现`svg转png`，还专门写过一个微型的spring boot项目，还写了一篇博客[svg转png](https://blog.csdn.net/weixin_43982359/article/details/129073725)，没想到对这个工具来说只是一行代码的事情，被按在地上狠狠摩擦。*
+*回想当初我为了能实现`svg转png`，还专门写过一个微型的spring boot项目，还写了一篇博客[svg转png](https://percheung.github.io/blog/svg转png)，没想到对这个工具来说只是一行代码的事情，被按在地上狠狠摩擦。*
 
 ### 4.png转ico
 
