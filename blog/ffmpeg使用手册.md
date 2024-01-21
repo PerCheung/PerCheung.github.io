@@ -3,27 +3,19 @@
 {:toc}
 <div onclick="window.scrollTo({top:0,behavior:'smooth'});" style="background-color:white;position:fixed;bottom:20px;right:40px;padding:10px 10px 5px 10px;cursor:pointer;z-index:10;border-radius:13%;box-shadow:0.5px 3px 7px rgba(0,0,0,0.3);"><img src="https://percheung.github.io/blogImg/backTop.png" alt="TOP" style="background-color:white;width:30px;"></div>
 
-# ffmpeg使用教程
+# ffmpeg使用手册
 
 > 本教程持续更新，我学到多少就更新多少
 
 <div style="text-align: center;">
-  <img src="https://percheung.github.io/blogImg/video.png" width="30%" alt="ffmpeg" />
+  <img src="https://percheung.github.io/blogImg/FFmpeg.png" width="30%" alt="ffmpeg" />
 </div>
-
-## ffmpeg官网下载地址
-
-[https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
 
 ## ffmpeg是什么
 
 FFmpeg是一个开放源代码的自由软件，可以执行音频和视频多种格式的录影、转换、串流功能，包含了libavcodec——这是一个用于多个项目中音频和视频的解码器函式库，以及libavformat——一个音频与视频格式转换函式库。
 
 具体请看[https://zh.wikipedia.org/wiki/FFmpeg](https://zh.wikipedia.org/wiki/FFmpeg)
-
-## ffmpeg安装教程
-
-
 
 ## 查看ffmpeg版本
 

@@ -3,7 +3,7 @@
 {:toc}
 <div onclick="window.scrollTo({top:0,behavior:'smooth'});" style="background-color:white;position:fixed;bottom:20px;right:40px;padding:10px 10px 5px 10px;cursor:pointer;z-index:10;border-radius:13%;box-shadow:0.5px 3px 7px rgba(0,0,0,0.3);"><img src="https://percheung.github.io/blogImg/backTop.png" alt="TOP" style="background-color:white;width:30px;"></div>
 
-# ImageMagick使用教程
+# ImageMagick使用手册
 
 > 本教程持续更新，我学到多少就更新多少
 
