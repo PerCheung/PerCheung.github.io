@@ -39,13 +39,13 @@
 
 ### 1.9 腾讯文档
 
-### 1.10 迅雷
+### 1.10 <img src="https://percheung.github.io/blogImg/xunlei.png" width="35px" alt="" />迅雷
 
-### 1.11 百度网盘
+### 1.11 百度<img src="https://percheung.github.io/blogImg/baidu.png" width="30px" alt="" />网盘
 
-### 1.12 Visual Studio Code
+### 1.12 Visual Studio Code<img src="https://percheung.github.io/blogImg/vscode.png" width="35px" alt="" />
 
-> 编程工具
+### 1.13 <img src="https://percheung.github.io/blogImg/Python.png" width="30px" alt="" />Python
 
 ## 2.建议使用安装包安装
 

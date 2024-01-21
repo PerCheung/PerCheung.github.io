@@ -11,7 +11,7 @@
 
 ![windows蓝屏警告！！！](https://percheung.github.io/blogImg/blue_win.png)
 
-你有没有这种经历，某天打开自己的windows电脑，蓝屏了，我汤姆<img src="https://percheung.github.io/blogImg/clanguage-17056722562051.png" width="30px" alt="" />了啊！！！
+你有没有这种经历，某天打开自己的windows电脑，蓝屏了，我汤姆<img src="https://percheung.github.io/blogImg/clanguage.png" width="30px" alt="" />了啊！！！
 
 如果你经常看我的博客，就会发现几周前我还在window11上写代码，现在用的操作系统成了window10，是我喜欢10胜过11吗？是的。但是我不是自愿更换的操作系统，而是沙雕一样的window自动更新造成的，我某天忘记关掉windows自动更新（其实我早就从注册表里都把自动更新关了，何曾想到这玩意还能强行自己偷偷触发），第二天打开windows电脑，喜提蓝屏😓。我就这么汤姆只能去微软官网刻录了一份纯净版的win10放我u盘里，然后重装了系统。
 
