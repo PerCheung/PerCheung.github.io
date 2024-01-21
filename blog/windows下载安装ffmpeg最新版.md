@@ -32,3 +32,4 @@ ffmpeg -version
 如果输出的有结果，就算下载安装完成。关于ffmpeg的具体使用请看我的下一篇博客。
 
 [ffmpeg使用手册](https://percheung.github.io/blog/ffmpeg使用手册)
+
