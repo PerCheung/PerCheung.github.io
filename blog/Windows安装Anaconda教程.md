@@ -9,10 +9,12 @@
 
 <div style="text-align: center;">
   <img src="https://percheung.github.io/blogImg/anaconda.png" width="25%" alt="window" />
+  <p></p>
   <p>
-  <strong>在我看来，Anaconda的图标如同一只灵蛇咬住了自己的尾巴，优美而神秘</strong>
+  <strong style="color:#42b029">在我看来，Anaconda的图标如同一只灵蛇咬住了自己的尾巴，优美而神秘</strong>
   </p>
 </div>
+
 **全称：Anaconda**
 
 **发音：安尼康达**
