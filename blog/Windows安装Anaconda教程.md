@@ -19,6 +19,8 @@
 
 **含义：蟒蛇**
 
+<p style="color:#42b029">误解了，anaconda是森楠的意思，Python才是蟒蛇的意思。</p>
+
 > **Anaconda**是一个[开源](https://zh.wikipedia.org/wiki/开放源代码)[Python](https://zh.wikipedia.org/wiki/Python)和[R语言](https://zh.wikipedia.org/wiki/R语言)的发行版本，用于[计算科学](https://zh.wikipedia.org/wiki/计算科学)（[数据科学](https://zh.wikipedia.org/wiki/数据科学)、[机器学习](https://zh.wikipedia.org/wiki/机器学习)、[大数据处理](https://zh.wikipedia.org/wiki/大数据)和[预测分析](https://zh.wikipedia.org/wiki/预测分析)），Anaconda致力于简化[软件包管理系统](https://zh.wikipedia.org/wiki/软件包管理系统)和部署。Anaconda透过[Conda](https://zh.wikipedia.org/wiki/Conda)进行[软件包管理](https://zh.wikipedia.org/wiki/软件包管理系统)，并拥有许多适用于[Windows](https://zh.wikipedia.org/wiki/Microsoft_Windows)、[Linux](https://zh.wikipedia.org/wiki/Linux)和[MacOS](https://zh.wikipedia.org/wiki/MacOS)的[数据科学](https://zh.wikipedia.org/wiki/数据科学)[软件包](https://zh.wikipedia.org/wiki/软件包)。
 
 ## 1.下载
