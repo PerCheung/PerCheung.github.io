@@ -201,14 +201,4 @@ linkStyle 11 stroke:#233ed9,stroke-width:3px;
 
 ### 3.3 成品
 
-#### 3.3.1 不去mermaid查看成品
-
-> 部分网页因为对该语法适配不一样，不一定每个网页都适配这样的语法显示。所以贴个成品图放下面给各位看看效果，最后绘制出来的图挺大的，还是个svg的，只能截取部分出来看了，你也可以将上面的代码放到你typora里，在你本地看看效果。
-
-![image-20240202233618413](https://percheung.github.io/blogImg/image-20240202233618413.png)
-
-#### 3.3.2 去mermaid查看成品
-
-> 原来mermaid（美人鱼）官网有一个在线编辑器，专门支持他家的mermaid语法在线显示，下面附上我的svg链接，直接点开就能看到成品的svg图像的样子了。更让我感到惊奇的是该链接居然没有被长城拦截，国内也可以很舒服的访问美人鱼网站。
-
-[群里提问的艺术-来自mermaid（美人鱼）](https://www.mermaidchart.com/raw/03803400-c2bd-45af-84ca-0350d7094eb1?theme=light&version=v0.1&format=svg)
+![群里提问的艺术](https://percheung.github.io/blogImg/群里提问的艺术.svg)
