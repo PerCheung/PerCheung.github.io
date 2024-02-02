@@ -203,4 +203,4 @@ linkStyle 11 stroke:#233ed9,stroke-width:3px;
 
 > 最后绘制出来的图挺大的，还是个svg的，只能截取部分出来看了，你也可以将上面的代码放到你typora里，在你本地看看效果。本文全部内容到此为止。
 
-![image-20240202233618413](C:\Users\Peter\Documents\GitHub\PerCheung.github.io\blogImg\image-20240202233618413.png)
+![image-20240202233618413](https://percheung.github.io/blogImg/image-20240202233618413.png)
