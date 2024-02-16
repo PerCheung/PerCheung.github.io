@@ -9,7 +9,7 @@
 
 ## 1.个人简介
 
-### 1.1 我的联系方式
+### 1.1 联系方式
 
 - <img src="https://percheung.github.io/blogImg/iphone13.png" width="35px" alt="" />手机号：*为了自己的隐私，页面上就不写了*
 - <img src="https://percheung.github.io/blogImg/Email.png" width="35px" alt="" />邮箱：[*点击发送邮件到我的邮箱* C2243736958@qq.com](mailto:c2243736958@qq.com)
@@ -30,6 +30,18 @@
 - 对html，css，js，[jQuery](https://jquery.com/)，[vue2](https://v2.vuejs.org/)有一定的学习，用 [elementUI](https://element.eleme.cn/) 做过个人博客，毕业设计等开发，但未在实际工作中做过前端开发。
 - 使用过操作系统 <img src="https://percheung.github.io/blogImg/windows.png" width="35px" alt="" /> window server，<img src="https://percheung.github.io/blogImg/ubuntu_.png" width="35px" alt="" />Ubuntu，<img src="https://percheung.github.io/blogImg/centos.png" width="35px" alt="" />CentOS，在上面搭建过开发环境和生产环境，用window server 搭建过域控服务器，使用过阿里云服务器，腾讯云服务器，对 CentOS 使用比较顺手。
 - 对<img src="https://percheung.github.io/blogImg/Docker.png" width="35px" alt="" />的使用比较熟练，在 windows 系统，Linux<img src="https://percheung.github.io/blogImg/linux.png" width="35px" alt="" />系统上均创建使用过docker服务，也曾用docker部署运行过项目，用 docker compose 运行过 Spring boot 项目。
+
+### 1.4 教育经历
+
+毕业院校：**河南财政金融学院**
+
+> 学校官网链接🔗[https://www.hafu.edu.cn](https://www.hafu.edu.cn)
+
+最高学历：**全日制本科**
+
+大学所学专业：**计算机科学与技术**
+
+
 
 ## 2.工作经历
 
@@ -53,11 +65,13 @@
 
 &emsp;&emsp;该公司是在**河南郑州**，我在2021年7月份进入该公司实习，在该公司做到2022年4月份辞职。我在该公司主要做Java开发，主要的工作经历是被派遣到**润电能源科学技术有限公司**做单点登录门户。
 
+
+
 ## 3.项目经历
 
 ### 3.1 产品认证管理系统
 
-**甲方介绍：**
+**项目背景简介：**
 
 &emsp;&emsp;[德沃康科技集团](https://www.dewertokintechnology.com/)是一家德企跨国公司，世界500强企业，公司 CEO 格罗斯博士于2020年将公司的全球总部搬到了嘉兴，因此我的前公司有机会和德沃康合作。
 
@@ -83,3 +97,86 @@
 - 前端开发：vue2 + elementUI等（前端我没有参与，具体我不熟悉）。
 - 项目上线部署：使用window server服务器，后端用 jar 包运行，前端用 dist 静态文件夹，使用 nginx 部署。
 
+
+
+### 3.2 亚达管道数字化解决方案
+
+**项目背景简介：**
+
+**项目目标：**
+
+**项目简介：**
+
+**项目使用技术大致如下：**
+
+
+
+### 3.3 飞策防爆电器有限公司计件工资系统
+
+**项目背景简介：**
+
+**项目目标：**
+
+**项目简介：**
+
+**项目使用技术大致如下：**
+
+
+
+### 3.4 新吉奥集团PDA扫码系统
+
+**项目背景简介：**
+
+**项目目标：**
+
+**项目简介：**
+
+**项目使用技术大致如下：**
+
+
+
+### 3.5 领克汽车零件管理系统
+
+**项目背景简介：**
+
+**项目目标：**
+
+**项目简介：**
+
+**项目使用技术大致如下：**
+
+
+
+### 3.6 郑州润电能源管理系统
+
+**项目背景简介：**
+
+**项目目标：**
+
+**项目简介：**
+
+**项目使用技术大致如下：**
+
+
+
+### 3.7 华杉CRM系统
+
+**项目背景简介：**
+
+**项目目标：**
+
+**项目简介：**
+
+**项目使用技术大致如下：**
+
+
+
+### 3.8 毕业论文管理系统
+
+**项目背景简介：**
+
+**项目目标：**
+
+**项目简介：**
+
+**项目使用技术大致如下：**
