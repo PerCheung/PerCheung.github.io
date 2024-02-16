@@ -1,6 +1,9 @@
 点击返回[🔗我的博客文章目录](https://percheung.github.io/#/toc)
+
 * 目录
 {:toc}
+
+
 <div onclick="window.scrollTo({top:0,behavior:'smooth'});" style="background-color:white;position:fixed;bottom:20px;right:40px;padding:10px 10px 5px 10px;cursor:pointer;z-index:10;border-radius:13%;box-shadow:0.5px 3px 7px rgba(0,0,0,0.3);"><img src="https://percheung.github.io/blogImg/backTop.png" alt="TOP" style="background-color:white;width:30px;"></div>
 
 # 张彭博
@@ -30,16 +33,19 @@
 - 对html，css，js，[jQuery](https://jquery.com/)，[vue2](https://v2.vuejs.org/)有一定的学习，用 [elementUI](https://element.eleme.cn/) 做过个人博客，毕业设计等开发，但未在实际工作中做过前端开发。
 - 使用过操作系统 window server，Ubuntu，CentOS，在上面搭建过开发环境和生产环境，用window server 搭建过域控服务器，使用过阿里云服务器，腾讯云服务器，对 CentOS 使用比较顺手。
 - 对<img src="https://percheung.github.io/blogImg/Docker.png" width="45px" alt="" />的使用比较熟练，在 windows 系统，Linux<img src="https://percheung.github.io/blogImg/linux.png" width="35px" alt="" />系统上均创建使用过 docker 服务，也曾用 docker 部署运行过项目，用 docker compose 运行过 Spring boot 项目。
+- 对编程热爱，喜欢技术，喜欢对未知的事物钻研原理，有探知欲，做项目过程中也会对项目的业务进行学习，能独立思考，有思辨能力，对事物有思考。
 
 ### 1.4 教育经历
 
 #### 毕业院校：河南财政金融学院
 
+**最高学历：全日制本科**
+
+**大学所学专业：计算机科学与技术**
+
 > 学校官网链接[https://www.hafu.edu.cn](https://www.hafu.edu.cn)
 
-最高学历：**全日制本科**
-
-大学所学专业：**计算机科学与技术**
+&emsp;&emsp;在校期间我就完成了 Spring boot 全家桶的学习，除了 Java 学习外，还学习过一些 Python 和 c 语言的课程，学校也教授过计算机网络，数据结构，软件工程，编译原理等相关课程，加上我平时也阅读计算机相关书籍，这让我对计算机的历史，发展，底层等都建立了一定的理解。
 
 
 
