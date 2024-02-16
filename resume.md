@@ -5,7 +5,7 @@
 
 # 张彭博
 
-> **张彭博**是我的名字，我的这份简历在线链接🔗是[https://percheung.github.io/resume](https://percheung.github.io/resume)
+> **张彭博**是我的名字，我的这份简历在线链接是[https://percheung.github.io/resume](https://percheung.github.io/resume)
 
 ## 1.个人简介
 
@@ -23,19 +23,19 @@
 ### 1.3 个人优势
 
 - 我是**本科学历**，全日制本科，大学所学专业为**计算机科学与技术**。
-- 截至2024年2月，我的 [CSDN](https://blog.csdn.net/weixin_43982359)<img src="https://percheung.github.io/blogImg/csdn-img.png" width="35px" alt="" />文章访问量有**16万+**，全国排名在10,000。
-- 精通<img src="https://percheung.github.io/blogImg/java.png" width="35px" alt="" />**Java**，能熟练使用 Spring boot<img src="https://percheung.github.io/blogImg/SPRINGBOOT.png" width="35px" alt="" />做 Web 开发，实际做过前后端分离的后端开发工作。
-- 具备sql编写能力，在实际开发中用过 MySQL<img src="https://percheung.github.io/blogImg/mysql.png" width="45px" alt="" />，<img src="https://percheung.github.io/blogImg/PostgreSQL.png" width="35px" alt="" />PostgreSQL，<img src="https://percheung.github.io/blogImg/oracle_.png" width="35px" alt="" />oracle，sql server，不过总体以 MySQL 使用为主，写过视图和存储过程。
+- 截至2024年2月，我的 [CSDN](https://blog.csdn.net/weixin_43982359) 文章访问量有**16万+**，全国排名在10,000。
+- 精通<img src="https://percheung.github.io/blogImg/java.png" width="40px" alt="" />**Java**，能熟练使用 Spring boot 做 Web 开发，实际做过前后端分离的后端开发工作。
+- 具备sql编写能力，在实际开发中用过 MySQL，PostgreSQL，oracle，sql server，不过总体以 MySQL<img src="https://percheung.github.io/blogImg/mysql.png" width="45px" alt="" />使用为主，写过视图和存储过程。
 - 本人上份工作，在项目中独立完成过**简单业务设计 + 简单数据表创建 + 后端框架搭建 + 后端技术选型 + 后端代码开发 + 服务器部署 + 接口测试 + 测试文档编写 + 用户使用手册编写 + 项目上线后运维**的工作，对项目的整体开发流程具备一定的认识。
 - 对html，css，js，[jQuery](https://jquery.com/)，[vue2](https://v2.vuejs.org/)有一定的学习，用 [elementUI](https://element.eleme.cn/) 做过个人博客，毕业设计等开发，但未在实际工作中做过前端开发。
-- 使用过操作系统 <img src="https://percheung.github.io/blogImg/windows.png" width="35px" alt="" /> window server，<img src="https://percheung.github.io/blogImg/ubuntu_.png" width="35px" alt="" />Ubuntu，<img src="https://percheung.github.io/blogImg/centos.png" width="35px" alt="" />CentOS，在上面搭建过开发环境和生产环境，用window server 搭建过域控服务器，使用过阿里云服务器，腾讯云服务器，对 CentOS 使用比较顺手。
-- 对<img src="https://percheung.github.io/blogImg/Docker.png" width="35px" alt="" />的使用比较熟练，在 windows 系统，Linux<img src="https://percheung.github.io/blogImg/linux.png" width="35px" alt="" />系统上均创建使用过docker服务，也曾用docker部署运行过项目，用 docker compose 运行过 Spring boot 项目。
+- 使用过操作系统 window server，Ubuntu，CentOS，在上面搭建过开发环境和生产环境，用window server 搭建过域控服务器，使用过阿里云服务器，腾讯云服务器，对 CentOS 使用比较顺手。
+- 对<img src="https://percheung.github.io/blogImg/Docker.png" width="45px" alt="" />的使用比较熟练，在 windows 系统，Linux<img src="https://percheung.github.io/blogImg/linux.png" width="35px" alt="" />系统上均创建使用过 docker 服务，也曾用 docker 部署运行过项目，用 docker compose 运行过 Spring boot 项目。
 
 ### 1.4 教育经历
 
-毕业院校：**河南财政金融学院**
+#### 毕业院校：河南财政金融学院
 
-> 学校官网链接🔗[https://www.hafu.edu.cn](https://www.hafu.edu.cn)
+> 学校官网链接[https://www.hafu.edu.cn](https://www.hafu.edu.cn)
 
 最高学历：**全日制本科**
 
@@ -47,7 +47,7 @@
 
 ### 2.1 嘉兴奥哲软件有限公司
 
-> 公司官网链接🔗[http://www.ozbpm.com](http://www.ozbpm.com)
+> 公司官网链接[http://www.ozbpm.com](http://www.ozbpm.com)
 
 &emsp;&emsp;嘉兴奥哲软件有限公司是阿里巴巴钉钉嘉兴服务商，普元华东区合作伙伴，奥哲嘉兴地区合作伙伴，企业数字化解决方案提供商。公司先后被评为科技型中小企业、软件企业。
 
@@ -57,7 +57,7 @@
 
 ### 2.2 杭州芯享科技有限公司
 
-> 公司官网链接🔗[https://www.chipshare.cn](https://www.chipshare.cn)
+> 公司官网链接[https://www.chipshare.cn](https://www.chipshare.cn)
 
 &emsp;&emsp;我的这个前公司，地理位置是在**浙江杭州下沙**。该公司主要是做人力外包，我在该公司呆的时间比较短，我于2022年6月份左右进入该公司，在该公司工作到2022年8月份左右离职。在该公司，我的职务是**Java工程师**，平时的主要工作是负责到**吉利集团杭州总部**，参与**领克**汽车零件管理系统的代码维护工作。
 
