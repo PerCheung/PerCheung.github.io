@@ -6,7 +6,7 @@
 
 # Windows系统下使用docker安装elasticsearch和kibana
 
-能使用这篇文章的前提是你的window电脑已经安装了docker，若没有docker，请参考我的一篇文章[Windows安装docker](https://percheung.github.io/blog/Windows安装docker)，把docker安装一下。若已经有了docker，请往下看。如果你下载的时候感觉拉取镜像很慢，可以参考我这一篇文章[Windows系统的docker设置阿里源](https://percheung.github.io/blog/Windows系统的docker设置阿里源)，把你的docker换成阿里镜像，就会拉取地快一点。
+能使用这篇文章的前提是你的window电脑已经安装了docker，若没有docker，请参考我的一篇文章[《Windows安装docker》](https://percheung.github.io/blog/Windows安装docker)，把docker安装一下。若已经有了docker，请往下看。如果你下载的时候感觉拉取镜像很慢，可以参考我这一篇文章[《Windows系统的docker设置阿里源》](https://percheung.github.io/blog/Windows系统的docker设置阿里源)，把你的docker换成阿里镜像，就会拉取地快一点。
 
 本文将用一个dockers-compose.yaml同时安装elasticsearch和kibana的7版本服务。
 
