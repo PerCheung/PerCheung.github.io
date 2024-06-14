@@ -13,7 +13,7 @@
 
 ## [Windows系统安装软件](https://percheung.github.io/blog/Windows系统安装软件)
 
-## [Windows系统Typora快捷键](https://percheung.github.io/blog/Windows系统Typora快捷键)
+## [Windows系统Typora快捷键](https://percheung.github.io/blog/windows系统Typora快捷键)
 
 ## [Windows系统压缩包方式安装redis](https://percheung.github.io/blog/Windows系统压缩包方式安装redis)
 
