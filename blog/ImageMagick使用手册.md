@@ -113,3 +113,16 @@ magick input.jpg -gravity south -crop 100%x50% output.jpg
 - `-gravity south`：这个选项将确定截取的起点位置为图片的底部。
 - `-crop 100%x50%`：这个选项将截取图片的宽度为100%（保持原始宽度），高度为50%（即下半部分）。
 - `output.jpg`：你要保存截取结果的文件名。
+
+### 8.webp转svg
+
+```bash
+magick input.webp output.svg
+```
+
+### 9.png转svg
+
+```bash
+magick input.png output.svg
+```
+
