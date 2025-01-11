@@ -49,7 +49,7 @@
         </div>
       </div>
     </el-main>
-    <el-footer class="home_footer">Copyright © 2023 Peter Cheung 保留所有权利</el-footer>
+    <el-footer class="home_footer">Copyright © 2025 Peter Cheung 保留所有权利</el-footer>
   </el-container>
 </template>
 
@@ -127,7 +127,7 @@ export default {
 
 @media screen and (max-width: 1023px) {
   .home_container {
-    background-image: url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/cny-header-202401-dragon-clouds?wid=3840&hei=400&fmt=png-alpha&.v=1704936825141");
+    background-image: url('@/assets/cny-header-202401-dragon-clouds.png');
     background-repeat: no-repeat;
     background-size: 300%;
     background-position: top;
@@ -188,7 +188,7 @@ export default {
 
 @media screen and (min-width: 1024px) {
   .home_container {
-    background-image: url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/cny-header-202401-dragon-clouds?wid=3840&hei=400&fmt=png-alpha&.v=1704936825141");
+    background-image: url('@/assets/cny-header-202401-dragon-clouds.png');
     background-repeat: no-repeat;
     background-size: 140%;
     background-position: top;
